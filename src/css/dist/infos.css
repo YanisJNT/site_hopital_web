@@ -1,0 +1,45 @@
+.box--info {
+  display: flex;
+  justify-content: space-around;
+  background-color: #00BFBA;
+  width: 100%;
+}
+.box--info .block-info {
+  margin: 50px;
+}
+.box--info .block-appel {
+  background: white;
+  padding: 50px 50px;
+  border-radius: 20px;
+}
+.box--info .block-appel .h3-appel {
+  font-size: 35px;
+  padding-bottom: 15px;
+  color: #06AEBF;
+}
+.box--info .block-horaires {
+  background: white;
+  padding: 50px 100px;
+  border-radius: 20px;
+}
+.box--info .block-horaires .h3-horaires {
+  font-size: 35px;
+  color: #06AEBF;
+}
+.box--info .block-rdv {
+  background: white;
+  padding: 60px 50px;
+  border-radius: 20px;
+}
+.box--info .block-rdv .h3-rdv {
+  font-size: 35px;
+  color: #06AEBF;
+}
+
+@media screen and (max-width: 1000px) {
+  .box--info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -1,0 +1,62 @@
+#appointment > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+#appointment > div > div > img {
+  width: 600px;
+}
+#appointment > div .box--form > form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+#appointment > div .box--form > h3 {
+  font-size: 29px;
+  color: #00BFBA;
+}
+#appointment > div .box--form > form > input {
+  border-bottom: 1px solid black;
+  height: 50px;
+  width: 700px;
+}
+#appointment > div form > input:focus {
+  outline: none;
+  border-bottom: 3px solid #00BFBA;
+}
+#appointment > div form > div > button {
+  margin-top: 50px;
+  background: #00BFBA;
+  padding: 12px 50px;
+  color: white;
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 1110px) {
+  #appointment > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #appointment > div .box--form > h3 {
+    margin-top: 90px;
+  }
+}
+@media screen and (max-width: 1110px) {
+  #appointment > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #appointment > div .box--form > h3 {
+    margin-top: 90px;
+  }
+}
+@media screen and (max-width: 720px) {
+  #appointment > div .box--form > form > input {
+    border-bottom: 1px solid black;
+    height: 50px;
+    width: 100%;
+  }
+}

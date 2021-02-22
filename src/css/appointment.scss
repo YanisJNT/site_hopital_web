@@ -1,0 +1,90 @@
+$color1 : #00BFBA;
+$color2 :#06AEBF;
+
+
+
+#appointment > div{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    margin-top: 150px;
+
+
+    > div > img{
+        width: 600px;
+    }
+
+
+    .box--form > form{
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+
+    }
+
+    .box--form > h3{
+        font-size: 29px;
+        color: $color1;
+    }
+
+    .box--form > form >   input{
+        border-bottom: 1px solid black;
+        height: 50px;
+        width: 700px;
+    }
+
+    form > input:focus{
+        outline: none;
+        border-bottom: 3px solid $color1;
+    }
+
+    form > div > button{
+        margin-top: 50px;
+        background: $color1 ;
+        padding: 12px 50px;
+        color: white;
+        border-radius: 5px;
+    
+    }
+    
+}
+
+@media screen and (max-width:1110px){
+    #appointment > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .box--form > h3{
+           margin-top: 90px;
+    
+        }
+    }
+}
+
+
+@media screen and (max-width:1110px){
+    #appointment > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .box--form > h3{
+           margin-top: 90px;
+    
+        }
+    
+    }
+    
+}
+
+
+@media screen and (max-width:720px){
+    #appointment > div{
+        .box--form > form > input{
+            border-bottom: 1px solid black;
+            height: 50px;
+            width: 100%;
+        }
+    } 
+}

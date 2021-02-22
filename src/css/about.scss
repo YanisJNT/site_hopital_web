@@ -1,0 +1,77 @@
+$color1 : #00BFBA;
+$color2 :#06AEBF;
+
+
+
+#about{
+    display: flex;
+    justify-content:center;
+    margin-top: 120px;
+    text-align: center;
+
+    > div > h3{
+        text-align: center;
+        font-size: 50px;
+        color: $color1;
+    }
+
+    > div > div > p{
+
+        margin-top: 10px;
+        font-size: 18px;
+        color: gray;  
+    }
+
+    .box--fa{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        margin-top: 40px;
+
+        > div{
+            padding: 0px 100px;
+            color: $color2;
+        }
+        
+
+        .fa{
+            font-size:35px;
+        }
+    }
+
+}
+
+
+
+
+@media screen and (max-width:819px){
+
+    #about{
+
+        .p--about--box{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p{
+
+                font-size: 17px;
+                text-align: center;
+                max-width: 600px;
+                overflow: hidden;
+     
+            }
+        }
+        .box--fa {
+            display: flex;
+            flex-direction: column;
+
+            > div{
+                padding:20px;
+                color: $color2;
+            }
+        }
+
+    }
+
+}

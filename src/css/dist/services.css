@@ -1,0 +1,89 @@
+.box--title--services {
+  text-align: center;
+  font-size: 35px;
+  margin-top: 100px;
+}
+.box--title--services h6 {
+  font-size: 25px;
+}
+.box--title--services h3 {
+  font-size: 50px;
+  color: #00BFBA;
+}
+
+.box-services {
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+.box-services .p-services {
+  font-size: 17px;
+  margin-top: 30px;
+}
+.box-services .box--generaliste {
+  background: #00BFBA;
+  padding: 65px 20px;
+  border-radius: 20px;
+  grid-row: 2/3;
+}
+.box-services .box--generaliste > h4 {
+  margin-top: -5px;
+  font-size: 24px;
+}
+.box-services .box--dermatologie {
+  background: #00BFBA;
+  padding: 30px 20px;
+  border-radius: 20px;
+  grid-column: 2/3;
+}
+.box-services .box--dermatologie > h4 {
+  margin-top: 15px;
+  font-size: 24px;
+}
+.box-services .box--cardialogie {
+  background: #00BFBA;
+  padding: 30px 40px;
+  border-radius: 20px;
+  grid-column: 3/4;
+  grid-row: 2/3;
+}
+.box-services .box--cardialogie > h4 {
+  margin-top: 17px;
+  font-size: 24px;
+}
+.box-services .box--covid {
+  background: #00BFBA;
+  padding: 70px 100px;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  border-radius: 20px;
+}
+.box-services .box--covid > h4 {
+  margin-top: -5px;
+  font-size: 24px;
+}
+
+@media screen and (max-width: 800px) {
+  .box-services {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-services .box--generaliste {
+    padding: 50px 10px;
+  }
+  .box-services .box--dermatologie {
+    padding: 50px 0px;
+    margin-top: 20px;
+  }
+  .box-services .box--cardialogie {
+    padding: 50px 0px;
+    margin-top: 20px;
+  }
+  .box-services .box--covid {
+    padding: 50px 0px;
+    margin-top: 20px;
+  }
+}

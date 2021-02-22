@@ -1,0 +1,36 @@
+$color1 : #00BFBA;
+$color2 :#06AEBF;
+
+
+
+
+.footer{
+    background-color: $color1;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    padding-bottom: 50px;
+    margin-top: 100px;
+
+
+    >div{
+        margin-top: 50px;
+    }
+
+
+    h2{
+        font-size: 25px
+    }
+
+    h3{
+        font-size: 22px;
+    }
+
+    .test{
+        display: flex;
+        align-items: center
+    }
+    
+    
+}

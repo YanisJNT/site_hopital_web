@@ -1,0 +1,67 @@
+$color1 : #00BFBA;
+$color2 :#06AEBF;
+
+.title--new--box{   
+    text-align: center;
+
+    :nth-child(1){
+        font-size: 45px;
+        color: $color2;
+    }
+    :nth-child(2){
+        font-size: 25px;
+    }
+}
+
+
+
+.box--news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    flex-wrap: wrap;
+
+    .block--news{
+        display: flex;
+        flex-direction: column;
+
+        >div{
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    span{
+        text-align: center;
+    }
+
+    p{
+        text-align: center;
+    }
+
+
+
+    a{
+        color: $color2;
+        font-size: 32px;
+        margin-top: 10px;
+        padding: 0;
+        text-align: center;
+    }
+
+    .box--ar--2{
+        margin-top: 80px;
+    }
+
+
+
+    .box--ar--3{
+        margin-top: 80px;
+    }
+
+}
+
+
+
+

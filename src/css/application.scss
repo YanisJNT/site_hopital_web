@@ -1,0 +1,53 @@
+$color1 : #00BFBA;
+$color2 :#06AEBF;
+
+
+
+
+#application > div{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+
+
+    .box--text--app > :nth-child(1){
+        font-size: 25px;
+    }
+
+    .box--text--app > :nth-child(2){
+        font-size: 50px;
+        color: $color1;
+    }
+
+    .box--text--app > :nth-child(3){
+        font-size: 20px;
+    }
+
+    .box--text--app > nav{
+        margin-top: 50px;
+    }
+
+    .a-button-app{
+        background-color: $color1;
+        padding: 10px 30px;
+        color: white;
+        margin: 5px;
+    }
+
+}
+
+
+@media screen and (max-width:1000px){
+
+    #application > div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: 100px;
+        text-align: center;
+    }
+
+}

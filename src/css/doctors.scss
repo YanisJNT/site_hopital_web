@@ -1,0 +1,62 @@
+$color1 : #00BFBA;
+$color2 :#06AEBF;
+
+
+#doctors > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+    
+
+    .title--doctors h3{
+        font-size: 45px;
+        color: $color1;
+    }
+
+    .title--doctors h6{
+        font-size: 32px;
+        color: black;
+        text-align: center;
+    }
+
+    .box--doctors{
+
+        display: flex;
+        margin-top: 50px;
+
+        > div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 90px;
+            h4{
+                font-size: 22px;
+                margin-top: 10px;
+                text-align: center;
+            }
+
+            h6{
+                color: $color2;
+                font-size: 30px;
+            }
+
+        }
+
+        img{
+            width: 250px;
+        }
+    }
+}
+
+
+@media screen and (max-width:1000px){
+
+    .box--doctors{
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+
+    }
+
+}

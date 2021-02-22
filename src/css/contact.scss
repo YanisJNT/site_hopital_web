@@ -1,0 +1,67 @@
+$color1 : #00BFBA;
+$color2 :#06AEBF;
+
+
+
+
+#contact{
+    margin-top: 140px;
+    >div{
+        text-align: center;
+
+        :nth-child(1){
+            font-size: 28px;
+        }
+
+        :nth-child(2){
+            font-size: 40px;
+            color: $color1;
+        }
+    }
+
+    form{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    form >   input{
+        border-bottom: 1px solid black;
+        height: 50px;
+        width: 700px;
+    }
+
+    form > input:focus{
+        outline: none;
+        border-bottom: 3px solid $color1;
+    }
+
+    textarea{
+        border-bottom: 1px solid black;
+        height: 120px;
+        width: 700px;
+    }
+
+    form > button{
+        margin-top: 50px;
+        background: $color2 ;
+        padding: 12px 50px;
+        color: white;
+        border-radius: 5px;
+    
+    }
+}
+
+
+
+@media screen and (max-width: 720px) {
+    #contact{
+        form > input{
+            width: 80%;
+        }
+
+        form > textarea{
+            width: 80%;
+        }
+    }
+}

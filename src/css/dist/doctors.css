@@ -1,0 +1,45 @@
+#doctors > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+#doctors > div .title--doctors h3 {
+  font-size: 45px;
+  color: #00BFBA;
+}
+#doctors > div .title--doctors h6 {
+  font-size: 32px;
+  color: black;
+  text-align: center;
+}
+#doctors > div .box--doctors {
+  display: flex;
+  margin-top: 50px;
+}
+#doctors > div .box--doctors > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 90px;
+}
+#doctors > div .box--doctors > div h4 {
+  font-size: 22px;
+  margin-top: 10px;
+  text-align: center;
+}
+#doctors > div .box--doctors > div h6 {
+  color: #06AEBF;
+  font-size: 30px;
+}
+#doctors > div .box--doctors img {
+  width: 250px;
+}
+
+@media screen and (max-width: 1000px) {
+  .box--doctors {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+}

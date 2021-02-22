@@ -1,0 +1,64 @@
+$color1 : #00BFBA;
+$color2 :#06AEBF;
+
+.box--info{
+    display: flex;
+    justify-content: space-around;
+    background-color: $color1;
+    width: 100%;
+
+
+    .block-info{
+        margin: 50px;
+    }
+
+    .block-appel{
+        background: white;
+        padding: 50px 50px;
+        border-radius: 20px;
+
+
+        .h3-appel{
+            font-size: 35px;
+            padding-bottom: 15px;
+            color: $color2;
+        }
+    }
+
+    .block-horaires{
+        background: white;
+        padding: 50px 100px;
+        border-radius: 20px;
+
+        .h3-horaires{
+            font-size: 35px;
+            color: $color2;
+        }
+
+    }
+
+
+    .block-rdv{
+        background: white;
+        padding: 60px 50px;
+        border-radius: 20px;
+
+        .h3-rdv{
+            font-size: 35px;
+            color: $color2;
+        }
+
+    }
+
+}
+
+
+
+
+@media screen and (max-width:1000px){
+    .box--info{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
