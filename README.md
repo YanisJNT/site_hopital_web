@@ -12,7 +12,7 @@ un challenge crée par Graven
 
 ### Youtube Graven : 
 
-    <a href="https://www.youtube.com/channel/UCIHVyohXw6j2T-83-uLngEg">Graven</a>
+<a href="https://www.youtube.com/channel/UCIHVyohXw6j2T-83-uLngEg">Graven</a>
     
     
 ### Langages : 
@@ -24,11 +24,11 @@ un challenge crée par Graven
   
   
  ### Discord : 
-      Yayou#1169 
+  Yayou#1169 
       
  ### twitter : 
  
-  <a href=" https://twitter.com/PacLey1">Yayou</a>
+ <a href=" https://twitter.com/PacLey1">Yayou</a>
   
   
   
